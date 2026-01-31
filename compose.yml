@@ -3,8 +3,8 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-    RAM_SIZE: "14G"
-    CPU_CORES: "4"
+     RAM_SIZE: "14G"
+     CPU_CORES: "4"
     VERSION: "11"
     devices:
       - /dev/kvm
